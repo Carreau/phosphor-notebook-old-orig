@@ -7,7 +7,9 @@ import $ = require('jquery');
 import utils = require('base/js/utils');
 import comm = require('./comm');
 import serialize = require('./serialize');
-import events = require('base/js/events');
+//import events = require('base/js/events');
+
+declare var events;
 
 
 /**
@@ -868,7 +870,7 @@ export class Kernel {
         }
     }
     
-    _handle_shell_reply(reply): Promise {
+    _handle_shell_reply(reply): Promise<any> {
         events.trigger('shell_reply.Kernel', {kernel: this, reply:reply});
         var content = reply.content;
         var metadata = reply.metadata;
@@ -897,7 +899,7 @@ export class Kernel {
     /**
      * @function _handle_payloads
      */
-    _handle_payload(payloads, payload_callbacks, msg): Promise {
+    _handle_payload(payloads, payload_callbacks, msg): Promise<any> {
         var promise = [];
         var l = payloads.length;
         // Payloads are handled by triggering events because we don't want the Kernel
@@ -1061,7 +1063,7 @@ export class Kernel {
     public reconnect_limit: number;
 
     private _msg_callbacks: any;
-    private _msg_queue: Promise;
+    private _msg_queue: Promise<any>;
     private _autorestart_attempt: number;
     private _reconnect_attempt: number;
     private _iopub_handlers: any;

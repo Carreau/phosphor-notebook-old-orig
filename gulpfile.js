@@ -29,7 +29,7 @@ gulp.task('clean', function(cb) {
 gulp.task('src', function() {
     var project = typescript.createProject({
         declarationFiles: true,
-        noImplicitAny: true,
+        noImplicitAny: false,
         target: 'ES5',
         module: 'amd'
     });

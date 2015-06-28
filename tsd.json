@@ -6,16 +6,34 @@
   "bundle": "typings/tsd.d.ts",
   "installed": {
     "codemirror/codemirror.d.ts": {
-      "commit": "52fa2b9ce36f2c5843204e9bfbaada7cded9b47a"
+      "commit": "6f04d25ad38982d372cc3cda62fa4c0eef9e24d7"
     },
     "es6-promise/es6-promise.d.ts": {
-      "commit": "52fa2b9ce36f2c5843204e9bfbaada7cded9b47a"
+      "commit": "6f04d25ad38982d372cc3cda62fa4c0eef9e24d7"
     },
     "marked/marked.d.ts": {
-      "commit": "575d70adcad0086ec8c6f672a5eb569a4689486c"
+      "commit": "6f04d25ad38982d372cc3cda62fa4c0eef9e24d7"
     },
     "mathjax/mathjax.d.ts": {
-      "commit": "575d70adcad0086ec8c6f672a5eb569a4689486c"
+      "commit": "6f04d25ad38982d372cc3cda62fa4c0eef9e24d7"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "6f04d25ad38982d372cc3cda62fa4c0eef9e24d7"
+    },
+    "requirejs/require.d.ts": {
+      "commit": "6f04d25ad38982d372cc3cda62fa4c0eef9e24d7"
+    },
+    "moment/moment.d.ts": {
+      "commit": "6f04d25ad38982d372cc3cda62fa4c0eef9e24d7"
+    },
+    "moment/moment-node.d.ts": {
+      "commit": "6f04d25ad38982d372cc3cda62fa4c0eef9e24d7"
+    },
+    "es6-promises/es6-promises.d.ts": {
+      "commit": "6f04d25ad38982d372cc3cda62fa4c0eef9e24d7"
+    },
+    "text-encoding/text-encoding.d.ts": {
+      "commit": "6f04d25ad38982d372cc3cda62fa4c0eef9e24d7"
     }
   }
 }
